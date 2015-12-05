@@ -1,0 +1,43 @@
+.simple-multiselect-unselected {
+	padding-left: 0;
+	padding-right: 30px;
+}
+.simple-multiselect-selected {
+	padding-left: 30px;
+	padding-right: 0;
+}
+.simple-multiselect-header {
+	margin-bottom: 15px;
+}
+.simple-multiselect-information {
+	text-align: center;
+	margin-bottom: 5px;
+}
+.simple-multiselect-select-button button {
+	width: 100%;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.simple-multiselect-options-box {
+	border: 1px solid #ccc;
+	border-top: 0;
+	height: 125px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.simple-multiselect-options-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.simple-multiselect-options-list li {
+	cursor: pointer;
+	padding: 2.5px 5px;
+}
+.simple-multiselect-options-list li:hover {
+	background: #e5e5e5;
+}
+.simple-multiselect-options-list li[active=true] {
+	background: #dfdfdf;
+}
